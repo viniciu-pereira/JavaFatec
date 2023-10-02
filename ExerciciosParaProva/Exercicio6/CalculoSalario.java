@@ -2,7 +2,7 @@ package ExerciciosParaProva.Exercicio6;
 
 public class CalculoSalario {
 
-    private double ValorSalario;
+    private double ValorSalario; 
     private double Aliquota;
     private double Deducao;
 
