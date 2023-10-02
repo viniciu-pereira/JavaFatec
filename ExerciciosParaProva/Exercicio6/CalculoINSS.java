@@ -46,5 +46,5 @@ public class CalculoINSS {
         System.out.println("Aliquota INSS...:" + calculo.getAliquota() * 100D);
         System.out.println("Desconto INSS...: " + totalINSS);
         System.out.println("Salario liquido...:" + (ValorSalario - totalINSS));
-}
+    }
 }
