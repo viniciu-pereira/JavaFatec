@@ -45,8 +45,10 @@ public class App {
         maiorValor = vendas[0].getValorTotal();
         menorValor = vendas[0].getValorTotal();
         for (Venda venda : vendas) {
+
             if (venda.getValorTotal() > maiorValor) {
                 maiorValor = venda.getValorTotal();
+                
             } else if (venda.getValorTotal() < menorValor) {
                 menorValor = venda.getValorTotal();
             }
