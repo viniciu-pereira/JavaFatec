@@ -1,18 +1,16 @@
 public class ConCafe extends BlendDecorator {
-    
 
-    public ConCafe(Bebida bebida){
+    public ConCafe(Bebida bebida) {
         this.bebida = bebida;
     }
 
-
     @Override
-    public String getDescricao(){
+    public String getDescricao() {
         return "Concafe" + this.bebida.getDescricao();
     }
 
     @Override
-    public Double getValor(){
-        return 10D + this.bebida.getValor();
+    public Double getValor() {
+        return 10.0 + this.bebida.getValor();
     }
 }

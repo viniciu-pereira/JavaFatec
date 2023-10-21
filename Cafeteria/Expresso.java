@@ -1,6 +1,7 @@
-public abstract class Expresso extends Bebida {
+public class Expresso extends Bebida {
 
-    public Expresso() {
+    @Override
+    public getDescricao() {
         super.descricao = "Expresso cremosinho";
     }
 
