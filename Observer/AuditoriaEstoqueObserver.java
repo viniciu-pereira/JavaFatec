@@ -14,12 +14,12 @@ public class AuditoriaEstoqueObserver implements ProdutoObserver {
 
         List<Produto> auditoria = listaAuditoria.get(produto.getId());
 
+
         if(auditoria == null){
             auditoria = new ArrayList<>();
         }
 
-        auditoria.add(produto){
+        auditoria.add(produto);
             this.listaAuditoria.put(produto.getId(), auditoria);
-        }
     }
 }
